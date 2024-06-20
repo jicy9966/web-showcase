@@ -31,14 +31,7 @@ const NavBar = () =>
                             </Link>
                         </li>
                         <li className="text-center">
-                            <div className="link-button margin-left bg-clr-red">
-                                <Link to="/">
-                                    <text className="fs-20">Signup</text>
-                                </Link>
-                            </div>
-                        </li>
-                        <li className="text-center">
-                            <div className="link-button mx-2 bg-clr-bluey">
+                            <div className="link-button margin-left bg-clr-bluey">
                                 <Link to="/">
                                     <text className="fs-20">Login</text>
                                 </Link>

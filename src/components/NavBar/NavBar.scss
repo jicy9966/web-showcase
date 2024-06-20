@@ -21,7 +21,7 @@
 
 .navbar-content
 {
-    padding-left: 450px;
+    padding-left: 480px;
     overflow-x: hidden;
 }
 
@@ -44,6 +44,7 @@
     padding-left: 15px; 
     padding-right: 15px;
     color: $clr-white;
+    text-shadow: 0px 3px 5px $clr-gray;
 }
 
 .links
@@ -63,11 +64,11 @@
         overflow-x: clip;
 
         &.active-link{
-            background-color: $clr-blue;
+            background-color: $clr-bluey;
         }
     
         &:hover{
-            background-color: $clr-blue;
+            background-color: $clr-bluey;
         }
     }
 
@@ -89,5 +90,5 @@
 
 .margin-left
 {
-    margin-left: 100px;
+    margin-left: 160px;
 }

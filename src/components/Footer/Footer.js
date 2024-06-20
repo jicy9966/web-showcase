@@ -11,13 +11,13 @@ const Footer = () =>
                 <img className="uci_logo" src={uci_logo} alt=" " />
                 <div className="footer-text">
                     <text>
-                        Information about KSEA.
-                    </text>
-                    <text>
-                        Information about us, KSEA UCI.
+                        Korean-American Scientist and Engineers Association
                     </text>
                     <text>
                         University of California, Irvine. 
+                    </text>
+                    <text>
+                        © KSEA UCI
                     </text>
                 </div>
                 <div className="followus">

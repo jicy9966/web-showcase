@@ -27,15 +27,16 @@
     position: relative;
     color: $clr-white;
     align-self: center;
+    text-wrap: nowrap;
     display: flex;
     flex-direction: column;
-    margin-right: 400px;
 }
 
 .followus
 {
     color: $clr-white;
     padding-top: 40px;
+    padding-left: 150px;
 
     .small-divider
     {

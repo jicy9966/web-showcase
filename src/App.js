@@ -1,6 +1,6 @@
 import './App.scss';
 import "./components/NavBar/NavBar"
-import { Home, About, Activity, Events, Members } from "./pages/index"
+import { Home, Index, About, Activity, Events, Members } from "./pages/index"
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path = "/" element = {<Home />}>
+            <Route index element={<Index />} />
             <Route path='/about' element={<About />} />
             <Route path='/activity' element={<Activity />} />
             <Route path='/events' element={<Events />} />
