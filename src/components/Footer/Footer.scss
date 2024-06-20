@@ -1,0 +1,66 @@
+@import "../../App.scss";
+
+.app-footer
+{
+    width: 99vw;
+    height: 250px;
+    background-color: $clr-gray;
+    align-content: center;
+}
+
+.ksea-logo
+{
+    width: 200px;
+    margin-left: 120px;
+    margin-right: 180px;
+}
+
+.uci_logo
+{
+    width: 200px;
+    position: absolute;
+    margin-left: 250px;
+}
+
+.footer-text
+{
+    position: relative;
+    color: $clr-white;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 400px;
+}
+
+.followus
+{
+    color: $clr-white;
+    padding-top: 40px;
+
+    .small-divider
+    {
+        background-color: $clr-red;
+        width: 220px;
+        height: 1px;
+    }
+
+    .icon-text
+    {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        margin-bottom: 10px;
+
+        .insta-logo
+        {
+            width: 20px;
+            height: 20px;
+        }
+
+        .linktree-logo
+        {
+            width: 20px;
+            height: 24.5px;
+        }
+    }
+}

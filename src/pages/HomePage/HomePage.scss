@@ -1,0 +1,13 @@
+@import "../../App.scss";
+
+.page
+{
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-x: hidden;
+}
+
+.container
+{
+    height: 95vh;
+}

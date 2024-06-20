@@ -1,0 +1,93 @@
+@import "../../App.scss";
+
+.app-topbar
+{
+    width: 100vw;
+    height: 100px;
+    background-color: $clr-gray;
+    position: static;
+}
+
+.app-navbar
+{   
+    width: 92vw;
+    height: 70px;
+    background-color: $clr-light-gray;
+    position: absolute;
+    border-radius: 50px;
+    margin-left: 4.5vw;
+    margin-top: 15px;
+}
+
+.navbar-content
+{
+    padding-left: 450px;
+    overflow-x: hidden;
+}
+
+.app-logo
+{
+    position: absolute;
+    margin-left: 4vw;
+    margin-top: 4px;
+    img{
+        width: 90px;
+    }
+    text-decoration: none;
+}
+
+.app-title
+{
+    display: none;
+    font-size: 40px;
+    font-weight: bolder;
+    padding-left: 15px; 
+    padding-right: 15px;
+    color: $clr-white;
+}
+
+.links
+{
+    display: flex;
+    align-items: center;
+
+    .link-item{
+        color: $clr-white;
+        padding: 0 3rem;
+        height: 70px;
+        text-wrap: nowrap;
+        align-content: center;
+        text-align: center;
+        font-size: 20px;
+        text-shadow: 2px 2px 4px #000;
+        overflow-x: clip;
+
+        &.active-link{
+            background-color: $clr-blue;
+        }
+    
+        &:hover{
+            background-color: $clr-blue;
+        }
+    }
+
+    .link-button
+    {
+        color: $clr-white;
+        height: 40px;
+        width: 100px;
+        border-radius: 30px;
+        align-content: center;
+    }
+}
+
+.bg-clr
+{
+    &-red{background-color: $clr-red;}
+    &-bluey{background-color: $clr-bluey;}
+}
+
+.margin-left
+{
+    margin-left: 100px;
+}
