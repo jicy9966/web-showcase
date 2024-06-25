@@ -1,0 +1,15 @@
+@import "./IndexPage.scss";
+
+.organ-container
+{
+    width: 100vw;
+    height: 600px;
+    background: linear-gradient(#e8e8e8, transparent);
+    background-color: $clr-white;
+}
+
+.text-list
+{
+    width: 100vw;
+    flex-wrap: nowrap;
+}

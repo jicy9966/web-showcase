@@ -3,21 +3,22 @@
 .index-container
 {
     width: 100vw;
-    height: 600px;
     background: linear-gradient($clr-white, transparent);
     background-color: #ddd;
+    overflow-y: hidden;
 }
 
 .title-container
 {
     width: 970px;
+    height: 700px;
     padding-left: 150px;
     padding-top: 100px;
 }
 
 .title
 {
-    font-size: 100px;
+    font-size: 90px;
     font-weight: bolder;
     color: rgba($clr-bluey, 0.8);
     text-shadow: 1px 4px 3px #def, 0 0 0 #000, 1px 4px 3px #def;
@@ -26,7 +27,7 @@
 
 .divider
 {
-    width: 750px;
+    width: 675px;
     height: 5px;
     background-color: $clr-bright-yellow;
     margin-bottom: 50px;
@@ -34,17 +35,15 @@
 
 .description
 {
-    font-size: 30px;
+    font-size: 27px;
     font-weight: bold;
     flex-wrap: wrap;
 }
 
 .buttons
 {
-    padding-left: 150px;
-    padding-top: 50px;
-    width: auto;
-    height: auto;
+    margin-left: -20px;
+    margin-top: 50px;
     color: $clr-black;
     display: flex;
     flex-direction: row;
